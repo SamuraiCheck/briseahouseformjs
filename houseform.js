@@ -57,7 +57,7 @@ function homeMore() {
 }
 
 function homeFirstDropdown() {  
-  if (document.getElementById('property-type').value == "single-family-home-house") {
+  if (document.getElementById('property-type').value == "single-family") {
     console.log("single family home")
     document.getElementById('property-type').style.cssText = "display: none;"
     document.getElementById('property-information').style.cssText = "display: block;"
