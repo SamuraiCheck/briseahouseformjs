@@ -56,7 +56,27 @@ function homeMore() {
   else {}
 }
 
-
+function homeFirstDropdown() {  
+  if (document.getElementById('property-type').value == "single-family") {
+    document.getElementById('property-type').style.cssText = "display: none;"
+    document.getElementById('property-information').style.cssText = "display: block;"
+  }
+  
+  if (document.getElementById('property-type').value == "townhome") {
+    document.getElementById('property-type').style.cssText = "display: none;"
+    document.getElementById('property-information').style.cssText = "display: block;"
+  }
+  
+    if (document.getElementById('property-type').value == "condo") {
+    document.getElementById('property-type').style.cssText = "display: none;"
+    document.getElementById('property-information').style.cssText = "display: block;"
+  }
+  
+    if (document.getElementById('property-type').value == "manufactured-mobile") {
+    document.getElementById('property-type').style.cssText = "display: none;"
+    document.getElementById('not__need-select').style.cssText = "display: block;"
+  }
+}
 
 function homeSecondDropdown() { 
   if (document.getElementById('not__need-select').value == "manufactured-mobile-with-land") {
