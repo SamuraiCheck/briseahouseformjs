@@ -25,12 +25,12 @@ function firstOther() {
   if (document.getElementById('first__other-select').value == "house") {
     document.getElementById('first__other-select').style.cssText = "display: none;"
     document.getElementById('house-form').style.cssText = "display: block;"
-  }  
-
+  }
+  
   if (document.getElementById('first__other-select').value == "land") {
     document.getElementById('first__other-select').style.cssText = "display: none;"
     document.getElementById('land-form').style.cssText = "display: block;"
-  }  
+  }
   
   else {
 
