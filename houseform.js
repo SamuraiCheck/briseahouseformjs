@@ -1,4 +1,3 @@
-<script type="text/javascript">
 // ADD TRIGGERS
 document.getElementById('first__other-select').setAttribute("onchange", "firstOther()");
 document.getElementById('first__form-button').setAttribute("onclick", "firstSubmit()");
@@ -229,5 +228,3 @@ function howDidYou() {
     document.getElementById('how__did-you-hear').style.cssText = "display: none;"   
   }
 }
-
-</script>
