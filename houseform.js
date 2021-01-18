@@ -58,21 +58,25 @@ function homeMore() {
 
 function homeFirstDropdown() {  
   if (document.getElementById('property-type').value == "single-family-home") {
+    console.log("single family home")
     document.getElementById('property-type').style.cssText = "display: none;"
     document.getElementById('property-information').style.cssText = "display: block;"
   }
   
   if (document.getElementById('property-type').value == "townhome") {
+    console.log("townhome")
     document.getElementById('property-type').style.cssText = "display: none;"
     document.getElementById('property-information').style.cssText = "display: block;"
   }
   
     if (document.getElementById('property-type').value == "condo") {
+      console.log("condo")
     document.getElementById('property-type').style.cssText = "display: none;"
     document.getElementById('property-information').style.cssText = "display: block;"
   }
   
     if (document.getElementById('property-type').value == "manufactured-mobile") {
+      console.log()
     document.getElementById('property-type').style.cssText = "display: none;"
     document.getElementById('not__need-select').style.cssText = "display: block;"
   }
