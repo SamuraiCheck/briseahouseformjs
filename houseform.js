@@ -28,6 +28,7 @@ function firstOther() {
   }
   
   if (document.getElementById('first__other-select').value == "land") {
+    console.log('land')
     document.getElementById('first__other-select').style.cssText = "display: none;"
     document.getElementById('land-form').style.cssText = "display: block;"
   }
