@@ -16,27 +16,27 @@ document.getElementById('repairs__issues').setAttribute("onchange", "homeRepairs
 document.getElementById('hoa__select').setAttribute("onchange", "hoaShow()");
 
 //FIRST SELECT VERIFICATE
-function firstOther() { 
-  if (document.getElementById('first__other-select').value == "other") {
-    document.getElementById('first__other-select').style.cssText = "display: none;"
-    document.getElementById('first__other-container').style.cssText = "display: block;"
-  }
+//function firstOther() { 
+//  if (document.getElementById('first__other-select').value == "other") {
+//    document.getElementById('first__other-select').style.cssText = "display: none;"
+//    document.getElementById('first__other-container').style.cssText = "display: block;"
+//  }
+ 
+//  if (document.getElementById('first__other-select').value == "house") {
+//    document.getElementById('first__other-select').style.cssText = "display: none;"
+//    document.getElementById('house-form').style.cssText = "display: block;"
+//  }
   
-  if (document.getElementById('first__other-select').value == "house") {
-    document.getElementById('first__other-select').style.cssText = "display: none;"
-    document.getElementById('house-form').style.cssText = "display: block;"
-  }
+//  if (document.getElementById('first__other-select').value == "land-form") {
+//    console.log('land')
+//    document.getElementById('first__other-select').style.cssText = "display: none;"
+//    document.getElementById('land-form').style.cssText = "display: block;"
+//  }
   
-  if (document.getElementById('first__other-select').value == "land-form") {
-    console.log('land')
-    document.getElementById('first__other-select').style.cssText = "display: none;"
-    document.getElementById('land-form').style.cssText = "display: block;"
-  }
-  
-  else {
+//  else {
 
-  }
-}
+// }
+//}
 
 //FIRST SUBMIT CLICK
 function firstSubmit() {
