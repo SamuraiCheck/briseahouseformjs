@@ -27,7 +27,7 @@ function firstOther() {
     document.getElementById('house-form').style.cssText = "display: block;"
   }
   
-  if (document.getElementById('first__other-select').value == "land") {
+  if (document.getElementById('first__other-select').value == "land-form") {
     console.log('land')
     document.getElementById('first__other-select').style.cssText = "display: none;"
     document.getElementById('land-form').style.cssText = "display: block;"
