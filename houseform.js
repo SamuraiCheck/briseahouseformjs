@@ -62,9 +62,9 @@ function homeMore() {
   else {}
 }
 
-function homeFirstDropdown() {  
+function homeFirstDropdown() {
   if (document.getElementById('property-type').value == "singlefamily") {
-   console.log("show info")
+    console.log("show info")
     document.getElementById('property-type').style.cssText = "display: none;"
     document.getElementById('property-information').style.cssText = "display: block;"
   }
