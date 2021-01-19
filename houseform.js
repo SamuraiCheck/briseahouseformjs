@@ -64,11 +64,10 @@ function homeMore() {
 
 function homeFirstDropdown() {  
   if (document.getElementById('property-type').value == "single-family-home") {
-    console.log('single-family')
     document.getElementById('property-type').style.cssText = "display: none;"
     document.getElementById('property-information').style.cssText = "display: block;"
   }
-  
+ 
   if (document.getElementById('property-type').value == "townhome") {
     document.getElementById('property-type').style.cssText = "display: none;"
     document.getElementById('property-information').style.cssText = "display: block;"
