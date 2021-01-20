@@ -52,7 +52,7 @@ function secondSubmit() {
    }
    
   else {
-    document.getElementById('error').style.cssText = "display: block;"
+      document.getElementById('error').style.cssText = "display: block;"
   }
 }
 
@@ -60,8 +60,8 @@ function homeMore() {
    if(
    $('#name-home').val().length != 0 && $('#phone-home').val().length != 0 && $('#email-home').val().length != 0 && $('#address-home').val().length != 0
    ) {
-    document.getElementById('third__other-container').style.cssText = "display: none;"
-    document.getElementById('property-type').style.cssText = "display: block;"
+    //document.getElementById('third__other-container').style.cssText = "display: none;"
+    //document.getElementById('property-type').style.cssText = "display: block;"
     document.getElementById('error').style.cssText = "display: none;"
    }
    
