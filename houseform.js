@@ -48,8 +48,11 @@ function secondSubmit() {
       document.getElementById('second__other-container').style.cssText = "display: block";
       document.getElementById('first__other').style.cssText = "display: none";
       document.getElementById('second__form-button').style.cssText = "display: none";
+      document.getElementById('error').style.cssText = "display: none";
   }
-  else {}
+  else {
+   document.getElementById('error').style.cssText = "display: block";
+  }
 }
 
 function homeMore() {
@@ -58,8 +61,11 @@ function homeMore() {
    ) {
     document.getElementById('third__other-container').style.cssText = "display: none";
     document.getElementById('property-type').style.cssText = "display: block";
+    document.getElementById('error').style.cssText = "display: none";
    } 
-  else {}
+  else {
+    document.getElementById('error').style.cssText = "display: block";
+  }
 }
 
 function homeSecondDropdown() { 
@@ -84,7 +90,7 @@ function homeSecondDropdown() {
         document.getElementById('not__need-select').style.cssText = "display: none;"
         document.getElementById('not__need-input-container').style.cssText = "display: block;"
         document.getElementById('serial__number-container').style.cssText = "display: block;"  
-        }
+    }
 }
 
 function notNeedSelect() {
@@ -101,10 +107,6 @@ function notNeedSelect() {
     document.getElementById('space__rent-input').style.cssText = "display: block;"  
     document.getElementById('home__input__form-button').style.cssText = "display: block;"
   }
-  
-  else {
-  
-  }
 }
 
 function notNeedVerification() {
@@ -112,21 +114,24 @@ function notNeedVerification() {
     document.getElementById('property-information').style.cssText = "display: block;"
     document.getElementById('not__need-input-container').style.cssText = "display: none;"
     document.getElementById('home__input__form-button').style.cssText = "display: none;"
+    document.getElementById('error').style.cssText = "display: none";
   }
   if (document.getElementById('space__rent-input').value != 0){
     document.getElementById('property-information').style.cssText = "display: block;"
     document.getElementById('not__need-input-container').style.cssText = "display: none;"
     document.getElementById('home__input__form-button').style.cssText = "display: none;"
+    document.getElementById('error').style.cssText = "display: none";
   }
   
   if (document.getElementById('need-to-be-moved').value != 0){
     document.getElementById('property-information').style.cssText = "display: block;"
     document.getElementById('not__need-input-container').style.cssText = "display: none;"
     document.getElementById('home__input__form-button').style.cssText = "display: none;"
+    document.getElementById('error').style.cssText = "display: none";
   }
   
   else {
-  
+   document.getElementById('error').style.cssText = "display: block";
   }
 }
 
@@ -150,10 +155,12 @@ function serialNumberInputVerification() {
       document.getElementById('serial__number-container').style.cssText = "display: none;"
       document.getElementById('property-information').style.cssText = "display: block;"
       document.getElementById('home-note').style.cssText = "display: none;"
+      document.getElementById('error').style.cssText = "display: none";
   }
   
   else {
       document.getElementById('home-note').style.cssText = "display: none;"
+      document.getElementById('error').style.cssText = "display: block";
   }
 }
 
