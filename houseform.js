@@ -51,7 +51,7 @@ function secondSubmit() {
       document.getElementById('error').style.cssText = "display: none;"
   }
   else {
-   document.getElementById('error').style.cssText = "display: block;"
+      document.getElementById('error').style.cssText = "display: block;"
   }
 }
 
