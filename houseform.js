@@ -48,7 +48,7 @@ function secondSubmit() {
       document.getElementById('second__other-container').style.cssText = "display: block;"
       document.getElementById('first__other').style.cssText = "display: none;"
       document.getElementById('second__form-button').style.cssText = "display: none;"
-    document.getElementById('error').style.cssText = "display: none;"
+    document.getElementById('error').style.cssText = "display: block;"
    }
    
   else {
