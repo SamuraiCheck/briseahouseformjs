@@ -42,30 +42,26 @@ document.getElementById('hoa__select').setAttribute("onchange", "hoaShow()");
 function firstSubmit() {
   document.getElementById('first__other-container').style.cssText = "display: block;"
 } 
+
 //SECOND SUBMIT CLICK
+
 function secondSubmit() {
     if ($('#first__other').val().length !=0) {
       document.getElementById('second__other-container').style.cssText = "display: block;"
       document.getElementById('first__other').style.cssText = "display: none;"
       document.getElementById('second__form-button').style.cssText = "display: none;"
     document.getElementById('error').style.cssText = "display: block;"
-   }
-   
-  else {
+   } else {
       document.getElementById('error').style.cssText = "display: block;"
   }
 }
 
 function homeMore() {
-   if(
-   $('#name-home').val().length != 0 && $('#phone-home').val().length != 0 && $('#email-home').val().length != 0 && $('#address-home').val().length != 0
-   ) {
+   if($('#name-home').val().length != 0 && $('#phone-home').val().length != 0 && $('#email-home').val().length != 0 && $('#address-home').val().length != 0) {
     //document.getElementById('third__other-container').style.cssText = "display: none;"
     //document.getElementById('property-type').style.cssText = "display: block;"
     document.getElementById('error').style.cssText = "display: none;"
-   }
-   
-  else {
+   } else {
     document.getElementById('error').style.cssText = "display: block;"
   }
 }
@@ -132,9 +128,7 @@ function notNeedVerification() {
     document.getElementById('not__need-input-container').style.cssText = "display: none;"
     document.getElementById('home__input__form-button').style.cssText = "display: none;"
     document.getElementById('error').style.cssText = "display: none;"
-   }
-   
-  else {
+   } else {
      document.getElementById('error').style.cssText = "display: block;"
   }
 }
@@ -145,9 +139,7 @@ function serialNumberVerification() {
     document.getElementById('serial__number-verification').style.cssText = "display: block;"
     document.getElementById('serial__number').style.cssText = "display: none;"
     document.getElementById('home-note').style.cssText = "display: none;"
-}
-  
-  else {
+} else {
       document.getElementById('property-information').style.cssText = "display: block;"
       document.getElementById('serial__number').style.cssText = "display: none;"
       document.getElementById('home-note').style.cssText = "display: none;"
@@ -160,9 +152,7 @@ function serialNumberInputVerification() {
       document.getElementById('property-information').style.cssText = "display: block;"
       document.getElementById('home-note').style.cssText = "display: none;"
       document.getElementById('error').style.cssText = "display: none;"
-  }
-  
-  else {
+  } else {
       document.getElementById('home-note').style.cssText = "display: none;"
       document.getElementById('error').style.cssText = "display: block;"
   }
@@ -172,9 +162,7 @@ function homeLoanInputVerification() {
   if (document.getElementById('home-loan').value == "yes") {
       document.getElementById('home-loan-input').style.cssText = "display: block;"
       document.getElementById('home-loan').style.cssText = "display: none;"
-  }
-  
-  else {
+  } else {
   
   }
 }
@@ -183,9 +171,7 @@ function homeReason() {
   if(document.getElementById('reason__for-selling').value == "other") {
     document.getElementById('reason__for-selling-other').style.cssText = "display: block;"
     document.getElementById('reason__for-selling').style.cssText = "display: none;" 
-  }
-  
-  else {
+  } else {
   
   }
 }
@@ -194,9 +180,7 @@ function homeRepairs() {
   if (document.getElementById('repairs__issues').value == "yes") {
     document.getElementById('repairs__issues-input').style.cssText = "display: block;"
     document.getElementById('repairs__issues').style.cssText = "display: none;" 
-  }
-  
-  else {
+  } else {
   
   }
 }
@@ -207,9 +191,7 @@ function hoaShow() {
     document.getElementById('hoa__dues').style.cssText = "display: block;"
     document.getElementById('hoa__frequency').style.cssText = "display: block;"
     document.getElementById('hoa__select').style.cssText = "display: none;" 
-  }
-  
-  else {
+  } else {
   
   }
 }
