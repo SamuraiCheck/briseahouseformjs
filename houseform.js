@@ -45,13 +45,13 @@ function firstSubmit() {
 //SECOND SUBMIT CLICK
 function secondSubmit() {
     if ($('#first__other').val().length !=0) {
-      document.getElementById('second__other-container').style.cssText = "display: block";
-      document.getElementById('first__other').style.cssText = "display: none";
-      document.getElementById('second__form-button').style.cssText = "display: none";
-      document.getElementById('error').style.cssText = "display: none";
+      document.getElementById('second__other-container').style.cssText = "display: block;"
+      document.getElementById('first__other').style.cssText = "display: none;"
+      document.getElementById('second__form-button').style.cssText = "display: none;"
+      document.getElementById('error').style.cssText = "display: none;"
   }
   else {
-   document.getElementById('error').style.cssText = "display: block";
+   document.getElementById('error').style.cssText = "display: block;"
   }
 }
 
@@ -59,12 +59,12 @@ function homeMore() {
    if(
    $('#name-home').val().length != 0 && $('#phone-home').val().length != 0 && $('#email-home').val().length != 0 && $('#address-home').val().length != 0
    ) {
-    document.getElementById('third__other-container').style.cssText = "display: none";
-    document.getElementById('property-type').style.cssText = "display: block";
-    document.getElementById('error').style.cssText = "display: none";
+    document.getElementById('third__other-container').style.cssText = "display: none;"
+    document.getElementById('property-type').style.cssText = "display: block;"
+  document.getElementById('error').style.cssText = "display: none;"
    } 
   else {
-    document.getElementById('error').style.cssText = "display: block";
+    document.getElementById('error').style.cssText = "display: block;"
   }
 }
 
@@ -114,24 +114,24 @@ function notNeedVerification() {
     document.getElementById('property-information').style.cssText = "display: block;"
     document.getElementById('not__need-input-container').style.cssText = "display: none;"
     document.getElementById('home__input__form-button').style.cssText = "display: none;"
-    document.getElementById('error').style.cssText = "display: none";
+    document.getElementById('error').style.cssText = "display: none;"
   }
   if (document.getElementById('space__rent-input').value != 0){
     document.getElementById('property-information').style.cssText = "display: block;"
     document.getElementById('not__need-input-container').style.cssText = "display: none;"
     document.getElementById('home__input__form-button').style.cssText = "display: none;"
-    document.getElementById('error').style.cssText = "display: none";
+    document.getElementById('error').style.cssText = "display: none;"
   }
   
   if (document.getElementById('need-to-be-moved').value != 0){
     document.getElementById('property-information').style.cssText = "display: block;"
     document.getElementById('not__need-input-container').style.cssText = "display: none;"
     document.getElementById('home__input__form-button').style.cssText = "display: none;"
-    document.getElementById('error').style.cssText = "display: none";
+    document.getElementById('error').style.cssText = "display: none;"
   }
   
   else {
-   document.getElementById('error').style.cssText = "display: block";
+   document.getElementById('error').style.cssText = "display: block;"
    console.log('error')
   }
 }
@@ -156,12 +156,12 @@ function serialNumberInputVerification() {
       document.getElementById('serial__number-container').style.cssText = "display: none;"
       document.getElementById('property-information').style.cssText = "display: block;"
       document.getElementById('home-note').style.cssText = "display: none;"
-      document.getElementById('error').style.cssText = "display: none";
+      document.getElementById('error').style.cssText = "display: none;"
   }
   
   else {
       document.getElementById('home-note').style.cssText = "display: none;"
-      document.getElementById('error').style.cssText = "display: block";
+      document.getElementById('error').style.cssText = "display: block;"
   }
 }
 
