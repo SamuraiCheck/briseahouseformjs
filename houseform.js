@@ -132,6 +132,7 @@ function notNeedVerification() {
   
   else {
    document.getElementById('error').style.cssText = "display: block";
+   console.log('error')
   }
 }
 
